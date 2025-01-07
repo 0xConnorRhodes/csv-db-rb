@@ -29,9 +29,9 @@ class Csvdb
     @data
   end
 
-  def write(data)
+  def write(data, file: @db_file)
     data = normalize_data(data)
-    CSV.open(@db_file, 'w') do |csv|
+    CSV.open(file, 'w') do |csv|
       # Write headers first
       csv << data.first.keys
     
