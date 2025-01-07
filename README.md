@@ -27,4 +27,5 @@ db.write(combined)
 - [x] read from csv
 - [x] write new hash
 - [x] merge new hash with existing data (existing keys)
-- [ ] merge new hash with existing data (new keys)
+- [x] merge new hash with existing data (new keys)
+- [ ] merge in csv of new data
